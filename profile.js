@@ -5,7 +5,7 @@
 // 奖项：{ title: "奖项名称", meta: "获奖年份", description: "补充说明" }
 window.PROFILE = {
   name: "丁浩",
-  bio: "我是深圳大学人工智能学院计算机科学与技术专业的硕士研究生，研究方向为小样本目标检测（Few-Shot Object Detection）。\n我的工作连接计算机视觉研究与 AI 应用开发，关注有限样本下的视觉学习，以及 RAG、多智能体系统在实际场景中的应用。",
+  bio: "深圳大学人工智能学院计算机科学与技术专业的硕士研究生，研究方向为小样本目标检测（Few-Shot Object Detection）。\n我的工作连接计算机视觉研究与 AI 应用开发，关注有限样本下的视觉学习，以及 RAG、多智能体系统在实际场景中的应用。",
   interests: "Few-Shot Learning · Computer Vision · Agentic RAG · Multi-Agent Systems",
   education: [
     {title:"深圳大学",meta:"人工智能学院 · 计算机科学与技术 · 学术型硕士（保研） | 2024.09—2027.06（预计）",description:"GPA：3.61 / 4.0\n研究方向：小样本目标检测（Few-Shot Object Detection）。"},
