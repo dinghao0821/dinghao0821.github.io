@@ -5,7 +5,7 @@
 // 奖项：{ title: "奖项名称", meta: "获奖年份", description: "补充说明" }
 window.PROFILE = {
   name: "丁浩",
-  bio: "深圳大学人工智能学院计算机科学与技术专业的硕士研究生，研究方向为小样本目标检测（Few-Shot Object Detection）。\n我的工作连接计算机视觉研究与 AI 应用开发，关注有限样本下的视觉学习，以及 RAG、多智能体系统在实际场景中的应用。",
+  bio: "我是深圳大学人工智能学院计算机科学与技术专业的硕士研究生，研究方向为小样本目标检测（Few-Shot Object Detection）。\n我的工作连接计算机视觉研究与 AI 应用开发，关注有限样本下的视觉学习，以及 RAG、多智能体系统在实际场景中的应用。",
   interests: "Few-Shot Learning · Computer Vision · Agentic RAG · Multi-Agent Systems",
   education: [
     {title:"深圳大学",meta:"人工智能学院 · 计算机科学与技术 · 学术型硕士（保研） | 2024.09—2027.06（预计）",description:"GPA：3.61 / 4.0\n研究方向：小样本目标检测（Few-Shot Object Detection）。"},
@@ -20,6 +20,20 @@ window.PROFILE = {
     {title:"湖南虹桥工业科技股份有限公司",meta:"算法实习生 · 石油泄漏检测算法研发 | 2025.03—2025.05",description:"参与石油泄漏检测项目，负责目标检测模型搭建、训练和调优，通过准确率、召回率与 F1 等指标定位问题并优化检测性能。"}
   ],
   projects: [
+    {
+      title:"Multi-Agents Trip Planner · AI 多智能体旅行规划",
+      url:"https://github.com/dinghao0821/Multi-Agents-trip-planner",
+      meta:"中文旅行场景 · 多智能体协作与个性化行程规划",
+      description:"根据目的地、日期、交通方式、住宿与兴趣偏好，并行收集景点、天气和酒店信息，生成包含逐日路线、餐饮建议、预算与出行提示的个性化旅行计划。",
+      tags:["Python","FastAPI","LangChain","Vue 3","TypeScript","SQLite"],
+      details:[
+        "多智能体协作：通过异步任务并行执行景点、天气和酒店信息收集，再由规划智能体汇总生成完整行程。",
+        "实时生成反馈：使用 Server-Sent Events（SSE）展示各智能体的执行进度与中间结果，让规划过程可见。",
+        "地图与路线：接入高德地图 POI 搜索、天气查询、路线规划和 Web 地图，在结果页呈现行程并支持 PDF 导出。",
+        "历史与偏好记忆：基于 SQLite 与 SQLAlchemy 保存旅行计划、对话记录和用户偏好，支持历史行程管理。",
+        "前后端分离：前端采用 Vue 3、TypeScript、Pinia 与 Ant Design Vue；后端使用 FastAPI 与 LangChain，并提供注册、登录及 JWT 身份认证。"
+      ]
+    },
     {title:"SAGE · 面向老年医学的多智能体智能辅助平台",url:"https://github.com/dinghao0821/medical_agent",meta:"核心开发者 · Agent 架构与后端 | 2025.08—至今",description:"参与“十四五”国家重点研发计划相关项目，面向老年医学咨询、辅助分析与专业评估，构建涵盖医疗问答、知识检索、医学影像分析、结构化评估与案例管理的多智能体平台。",tags:["Python","FastAPI","LangGraph","Agentic RAG","SQLAlchemy","Redis"],details:["基于 LangGraph 编排医疗对话、检索、医学影像与研究 Agent，支持置信度路由、Agent 交接、Checkpoint 和中断恢复。","融合 CRAG / Self-RAG，对文档相关性、证据一致性和幻觉风险进行分阶段评估；支持网络检索与可追溯引用。","设计 Plan-and-Execute 与 Reflection 流程，通过证据评估对低可信结论进行降级。","引入医生审核节点，将 ADL、认知风险、居住环境及辅助器具需求等四类专项评估交由确定性规则评分引擎处理。","实现认证、权限、并发控制、审计和监控，建设 63 个自动化测试用例覆盖认证、安全、缓存及 Agent 工具链路。"]},
     {title:"深大智规 · 垂直领域智能问答系统",meta:"核心开发者 · 全栈 | 2025.10—2026.02",description:"面向高校规章制度查询，基于 50 余份深圳大学规章文档构建问答系统，将回答与原文证据、文件名、页码和条款关联。",tags:["RAG","LangGraph","ReAct","多模态文档理解"],details:["采用向量与关键词双路召回及父子索引策略，改善长文档检索中的信息碎片化问题。","整合视觉语言模型解析表格与流程图，支持跨模态文档理解。","基于 LangGraph 构建 ReAct 决策流，实现检索、排序与工具调用路由，并支持用户自定义工具和安全沙箱。","设计引用溯源机制，将生成结论与对应证据片段、文档元数据关联。"]}
   ],
