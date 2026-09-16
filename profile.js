@@ -12,8 +12,8 @@ window.PROFILE = {
     {title:"湖南农业大学",meta:"信息与智能科学技术学院 · 数据科学与大数据技术 · 理学学士 | 2020.09—2024.06",description:"GPA：3.68 / 4.0 · 专业排名：3 / 108\n获学业一等奖学金、国家励志奖学金。"}
   ],
   publications: [
-    {title:"Support-Conditioned Dynamic Convolution for FSOD",url:"https://ieeexplore.ieee.org/abstract/document/11462618/",meta:"第一作者 · ICASSP 2026 · CCF-B · 已发表",description:"面向小样本目标检测，研究支持集信息如何引导查询特征的空间滤波与语义对齐。",abstract:"针对样本稀缺时密集注意力模型容易过拟合的问题，提出支持条件动态卷积（SCDC）模块。在 Meta R-CNN 框架内，通过支持集动态生成卷积核与通道调制参数，将支持信息注入查询特征，协同实现空间滤波与语义对齐。"},
-    {title:"UINO-FSS: Unifying Representation Learning and Few-shot Segmentation via Hierarchical Distillation and Mamba-HyperCorrelation",url:"https://ieeexplore.ieee.org/abstract/document/11659830/",meta:"学生第二作者 · IEEE TIP 研究工作",description:"围绕表示学习与小样本分割开展研究。"}
+    {venue:"ICASSP",venueNote:"2026 · Conference",tags:["CCF-B","Few-Shot Detection","Dynamic Convolution"],title:"Support-Conditioned Dynamic Convolution for FSOD",url:"https://ieeexplore.ieee.org/abstract/document/11462618/",meta:"第一作者 · ICASSP 2026 · CCF-B · 已发表",description:"面向小样本目标检测，研究支持集信息如何引导查询特征的空间滤波与语义对齐。",abstract:"针对样本稀缺时密集注意力模型容易过拟合的问题，提出支持条件动态卷积（SCDC）模块。在 Meta R-CNN 框架内，通过支持集动态生成卷积核与通道调制参数，将支持信息注入查询特征，协同实现空间滤波与语义对齐。"},
+    {venue:"IEEE TIP",venueNote:"Journal Article",tags:["中科院一区 TOP","Few-Shot Segmentation","Mamba"],title:"UINO-FSS: Unifying Representation Learning and Few-shot Segmentation via Hierarchical Distillation and Mamba-HyperCorrelation",url:"https://ieeexplore.ieee.org/abstract/document/11659830/",meta:"学生第二作者 · IEEE Transactions on Image Processing · 已发表",description:"围绕表示学习与小样本分割开展研究。"}
   ],
   experience: [
     {title:"腾讯科技有限公司",meta:"IEG 电竞业务部客户端开发组 · AI 应用开发暑期实习 | 2026.05—2026.08",description:"参与面向研发提效的多 Agent 平台与电竞直播 AI 实时高光剪辑系统建设。",details:["Specworker：负责核心编排机制及 Flutter PC 方向建设，以阶段化工作流覆盖需求、设计、实现、测试、部署与知识沉淀。","设计主 Agent 与专项 SubAgent 协作机制，支持阶段状态持久化、断点续跑、输入输出契约与质量检查。","建设 Flutter PC E2E 与韧性测试能力，结合自动化脚本完成 UI 操作、截图取证、故障注入和恢复验证。","AIClipService：参与拉流缓冲、高光检测、集锦生成、上传与推送流程；设计视觉识别与游戏数据事件双轨检测、时间轴对齐、断流自愈及高光评分。"]},
